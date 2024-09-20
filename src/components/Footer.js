@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="px-4 md:px-28  py-12 mt-12 md:mt-20 mx-auto">
                 <div className="grid grid-cols-1 gap-6 sm:grid-cols-3 sm:gap-y-10 lg:grid-cols-3 xl:grid-cols-5">
                     <div className="sm:col-span-3 xl:col-span-2">
-                        <h2 className="text-xl font-bold text-blue-950">
+                        <h2 className="text-xl font-bold text-blue-950 dark:text-white">
                             Sign up for our newsletter
                         </h2>
                         <div className="mt-6">
@@ -18,7 +18,7 @@ const Footer = () => {
                                 <div>
                                     <input
                                         type="email"
-                                        className="block w-full placeholder-gray-400/70 sm:w-80 rounded-[.5rem] border border-gray-200 bg-white px-5 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none"
+                                        className="block w-full placeholder-gray-400/70 sm:w-80 rounded-[.5rem] border border-gray-200 bg-white px-5 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none dark:border-gray-800 dark:bg-gray-950 dark:text-gray-300"
                                         placeholder="Enter your email"
                                         required
                                     />
@@ -32,40 +32,40 @@ const Footer = () => {
                         </div>
                     </div>
                     <div>
-                        <p className="text-sm font-medium text-blue-950">Ressources</p>
+                        <p className="text-sm font-medium text-blue-950 dark:text-white">Ressources</p>
                         <div className="flex flex-col items-start mt-5 space-y-4">
-                            <Link href={''} className="text-sm text-gray-500 transition-colors duration-300 hover:underline hover:text-blue-700">
+                            <Link href={''} className="text-sm text-gray-500 transition-colors duration-300 hover:underline hover:text-blue-700 dark:text-gray-300">
                                 Components
                             </Link>
-                            <Link href={''} className="text-sm text-gray-500 transition-colors duration-300 hover:underline hover:text-blue-700">
+                            <Link href={''} className="text-sm text-gray-500 transition-colors duration-300 hover:underline hover:text-blue-700 dark:text-gray-300">
                                 Templetes
                             </Link>
-                            <Link href={''} className="text-sm text-gray-500 transition-colors duration-300 hover:underline hover:text-blue-700">
+                            <Link href={''} className="text-sm text-gray-500 transition-colors duration-300 hover:underline hover:text-blue-700 dark:text-gray-300">
                                 Tutorials
                             </Link>
                         </div>
                     </div>
                     <div>
-                        <p className="text-sm font-medium text-blue-950">Community</p>
+                        <p className="text-sm font-medium text-blue-950 dark:text-white">Community</p>
                         <div className="flex flex-col items-start mt-5 space-y-4">
-                            <Link href={''} className="text-sm text-gray-500 transition-colors duration-300 hover:underline hover:text-blue-700">
+                            <Link href={''} className="text-sm text-gray-500 transition-colors duration-300 hover:underline hover:text-blue-700 dark:text-gray-300">
                                 Github
                             </Link>
-                            <Link href={''} className="text-sm text-gray-500 transition-colors duration-300 hover:underline hover:text-blue-700">
+                            <Link href={''} className="text-sm text-gray-500 transition-colors duration-300 hover:underline hover:text-blue-700 dark:text-gray-300">
                                 Twitter
                             </Link>
                         </div>
                     </div>
                     <div>
-                        <p className="text-sm font-medium text-blue-950">Sponser us</p>
+                        <p className="text-sm font-medium text-blue-950 dark:text-white">Sponser us</p>
                         <div className="flex flex-col items-start mt-5 space-y-4">
-                            <Link href={''} className="text-sm text-gray-500 transition-colors duration-300 hover:underline hover:text-blue-700">
+                            <Link href={''} className="text-sm text-gray-500 transition-colors duration-300 hover:underline hover:text-blue-700 dark:text-gray-300">
                                 PayPal
                             </Link>
-                            <Link href={''} className="text-sm text-gray-500 transition-colors duration-300 hover:underline hover:text-blue-700">
+                            <Link href={''} className="text-sm text-gray-500 transition-colors duration-300 hover:underline hover:text-blue-700 dark:text-gray-300">
                                 Patreon
                             </Link>
-                            <Link href={''} className="text-sm text-gray-500 transition-colors duration-300 hover:underline hover:text-blue-700">
+                            <Link href={''} className="text-sm text-gray-500 transition-colors duration-300 hover:underline hover:text-blue-700 dark:text-gray-300">
                                 Buy me a Coffee
                             </Link>
                         </div>
@@ -73,7 +73,7 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col items-center mt-12 space-y-4 md:mt-20 md:space-y-0 md:flex-row md:justify-between">
                     <Logo />
-                    <p className="text-sm text-center text-gray-500">© 2024 - 2024 Meraki UI. Made by with ❤️ for Developers.</p>
+                    <p className="text-sm text-center text-gray-500 dark:text-gray-300">© 2024 - 2024 Meraki UI. Made by with ❤️ for Developers.</p>
                 </div>
             </div>
         </>

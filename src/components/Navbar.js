@@ -1,8 +1,9 @@
 import React from 'react'
 import Logo from './svg/Logo'
 import Link from 'next/link'
-import { MenuIcon, SunMoonIcon } from 'lucide-react'
+import { MenuIcon } from 'lucide-react'
 import Search from './Search'
+import DarkModeToggle from '@/utils/darkModeToogle'
 
 const Navbar = () => {
     return (
@@ -12,7 +13,7 @@ const Navbar = () => {
                     <Logo />
                 </div>
                 <div className="hidden md:block">
-                    <div className="text-blue-950 text-sm flex gap-8 items-center">
+                    <div className="text-blue-950 dark:text-white text-sm flex gap-8 items-center">
                         <Search />
                         <Link href={''}>
                             Components
@@ -24,13 +25,16 @@ const Navbar = () => {
                             Request component
                         </Link>
                         <div className="">
-                            <Link href={''}>
-                                <SunMoonIcon className={'size-5'} />
-                            </Link>
+                            <DarkModeToggle />
                         </div>
                     </div>
                 </div>
-                <MenuIcon className='block md:hidden' />
+                <div className="block md:hidden dark:text-white">
+                <div className="flex items-center gap-4">
+                    <DarkModeToggle />
+                    <MenuIcon />
+                </div>
+                </div>
             </div>
         </>
     )

@@ -8,29 +8,29 @@ const Features = () => {
                 <div className="grid gap-10 xl:gap-8 md:grid-cols-2 lg:grid-cols-3">
                     <div className="px-2 md:px-0 flex gap-4 md:gap-6">
                         <div className="">
-                            <LanguagesIcon />
+                            <LanguagesIcon className={'dark:text-white'} />
                         </div>
                         <div className="space-y-4">
-                            <h2 className='font-medium text-lg text-gray-800'>Support RTL Languages</h2>
-                            <p className='font-medium text-gray-500'>Seamlessly supports right-to-left (RTL) languages for intuitive interfaces in Arabic, Hebrew, and more.</p>
+                            <h2 className='font-medium text-lg text-gray-800 dark:text-white'>Support RTL Languages</h2>
+                            <p className='font-medium text-gray-500 dark:text-gray-400'>Seamlessly supports right-to-left (RTL) languages for intuitive interfaces in Arabic, Hebrew, and more.</p>
                         </div>
                     </div>
                     <div className="px-2 md:px-0 flex gap-4 md:gap-6">
                         <div className="">
-                            <SmartphoneIcon />
+                            <SmartphoneIcon className={'dark:text-white'} />
                         </div>
                         <div className="space-y-4">
-                            <h2 className='font-medium text-lg text-gray-800'>Fully Responsive</h2>
-                            <p className='font-medium text-gray-500'>Components adapt flawlessly to all devices, ensuring consistent performance from desktops to smartphones.</p>
+                            <h2 className='font-medium text-lg text-gray-800 dark:text-white'>Fully Responsive</h2>
+                            <p className='font-medium text-gray-500 dark:text-gray-400'>Components adapt flawlessly to all devices, ensuring consistent performance from desktops to smartphones.</p>
                         </div>
                     </div>
                     <div className="px-2 md:px-0 flex gap-4 md:gap-6">
                         <div className="">
-                            <MoonIcon />
+                            <MoonIcon className={'dark:text-white'} />
                         </div>
                         <div className="space-y-4">
-                            <h2 className='font-medium text-lg text-gray-800'>Elegant Dark Mode</h2>
-                            <p className='font-medium text-gray-500'>Enjoy comfortable viewing in low light with adaptive colors and contrasts for an elegant interface.</p>
+                            <h2 className='font-medium text-lg text-gray-800 dark:text-white'>Elegant Dark Mode</h2>
+                            <p className='font-medium text-gray-500 dark:text-gray-400'>Enjoy comfortable viewing in low light with adaptive colors and contrasts for an elegant interface.</p>
                         </div>
                     </div>
                 </div>

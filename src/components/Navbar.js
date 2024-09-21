@@ -8,7 +8,7 @@ import DarkModeToggle from '@/utils/darkModeToogle'
 const Navbar = () => {
     return (
         <>
-            <div className="flex justify-between items-center px-4 md:px-28  py-6">
+            <div className="flex justify-between items-center px-4 md:px-28 py-6 z-50 relative z-50">
                 <div className="">
                     <Logo />
                 </div>
@@ -30,10 +30,10 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="block md:hidden dark:text-white">
-                <div className="flex items-center gap-4">
-                    <DarkModeToggle />
-                    <MenuIcon />
-                </div>
+                    <div className="flex items-center gap-4">
+                        <DarkModeToggle />
+                        <MenuIcon />
+                    </div>
                 </div>
             </div>
         </>

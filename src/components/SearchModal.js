@@ -1,5 +1,4 @@
 import { SearchIcon } from 'lucide-react';
-import { useState } from 'react';
 
 const Modal = ({ isOpen, onClose }) => {
     if (!isOpen) return null; // Do not render modal if not open
